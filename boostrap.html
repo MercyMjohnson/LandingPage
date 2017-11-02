@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" 
+    integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+    crossorigin="anonymous">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+    rel="stylesheet"/>
+    
+  
+    <style>
+        .jumbotron {
+          background-image: url(background.jpg);
+          text-align: center !important;
+          padding-bottom: 100px;
+          padding-top: 100px;    
+
+          
+
+        }
+        #email{
+          width:300px;
+        }
+        #appSummary{         
+          display: inline;
+          vertical-align: top;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 16px;
+          line-height: 28px;
+          text-align: center;
+          position: relative;
+          top: -10px;
+          margin-block-start: 50px;
+        }
+        .card-img-top{
+          width: 235px;
+        }
+        #app{
+          display: inline;
+          vertical-align: top;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 16px;
+          line-height: 28px;
+        }
+        #appStoreIcon{
+          width: 200px;
+        }
+        #footer{
+          background-color:skyblue;
+          padding-top: 100px;
+          margin-top: 50px;
+          text-align: center;
+          padding-bottom: 100px;
+        }
+        body{
+          position: relative;
+        }
+        
+        </style>
+  
+    </head>
+    <body data-spy="scroll" data-target="#navbar" data-offset="150">
+      
+        <nav class="navbar fixed-top navbar-toggleable-md navbar-light bg-faded" id="navbar">
+          <button class="navbar-toggler navbar-toggler-right" type="button"
+          data-toggle="collapse" data-target="#navbarSupportedContent" 
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">MyApp</a>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#jumbotron">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#footer">Download The App</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="email" placeholder="Email">
+                <input class="form-control mr-sm-2" type="password" placeholder="Password">
+                <button class="btn btn-success my-2 my-sm-0" type="submit">Login</button>
+                </form>
+            </div>
+        </nav>
+  
+        
+        <div class="jumbotron" id="home jumbotron">
+          <h1 class="display-3">My Awesome App!</h1>
+          <p class="lead">This is why you should download this fantastic app!</p>
+          <hr class="my-4">
+          <p>Want to know more? Join our mailing list!</p>
+          <form class="form-inline justify-content-center">
+            <label class="sr-only" for="yourEmail">Email</label>
+            <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+              <div class="input-group-addon">@</div>
+              <input type="text" class="form-control" id="yourEmail" placeholder="Your Email">
+            </div>
+            <button type="button" class="btn btn-primary my-2 my-sm-0">Sign Up</button>
+          </form>
+        </div>
+
+        <div class="container">
+          <div class="row" id="appSummary">
+            <h1>Why This App is Awsome</h1>
+            <p class="lead">Summary, once again, of your app's awesomeness</p>
+
+          </div>
+        </div>
+        
+        <div class="container">
+
+            <div class="card-deck" id="about">
+                <div class="card">
+                  <img class="card-img-top" src="m1.jpg" alt="Card image cap">
+                  <div class="card-block">
+                    <h4 class="card-title"><i class="fa fa-cog" aria-hidden="true"></i>Card title</h4>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.
+                      This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="m2.jpg" alt="Card image cap">
+                  <div class="card-block">
+                    <h4 class="card-title"><i class="fa fa-cog" aria-hidden="true"></i>Card title</h4>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="m5.jpg" alt="Card image cap">
+                  <div class="card-block">
+                    <h4 class="card-title"><i class="fa fa-cog" aria-hidden="true"></i>Card title</h4>
+                    <p class="card-text">This is a wider card with supporting text below as
+                      a natural lead-in to additional content. This card has even longer content
+                      than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+
+        </div>
+
+        <div id="footer">
+          <div class="row" id="app">
+            <h2>Download the app!</h2>
+            <p class="lead">really, why should I download this app??</p>
+            <p><a href=""><img id="appStoreIcon" src="App-Store-Icon.png"></a></p>
+
+          </div>
+
+        </div>
+    
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" 
+    integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+    crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" 
+    integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" 
+    crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" 
+    integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" 
+    crossorigin="anonymous"></script>
+  </body>
+</html>
